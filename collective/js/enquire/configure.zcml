@@ -6,7 +6,7 @@
 
   <browser:resource
     name="collective.js.enquire.min.js"
-    directory="enquire.min.js"
+    file="enquire.min.js"
     />
 
   <include file="upgrades.zcml"/>

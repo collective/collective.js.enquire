@@ -12,24 +12,17 @@
 
         <script type="text/javascript" charset="utf-8">
 $(document).ready(function() {
-
-    enquire.register("max-width: 500px", function() {
-        match : function('screen and (min-width:800px)') {
+    enquire.register("screen and (max-width: 500px)", {
+        match : function() {
             console.log('MATCH');
         },
-
-        setup : function('screen and (min-width:800px)') {
+        setup : function() {
             console.log('SETUP');
         },
-
         deferSetup : true
-
     }).listen();
-
 });
         </script>
-
-
     </tal:main-macro>
     </div>
 </body>

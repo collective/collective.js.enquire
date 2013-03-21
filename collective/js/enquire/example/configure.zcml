@@ -7,7 +7,6 @@
   <browser:page
     name="example.collective.js.enquire"
     for="*"
-    class=".enquire.Example"
     template="enquire.pt"
     permission="zope2.View"
     />
