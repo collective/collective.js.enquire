@@ -4,9 +4,9 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="collective.js.enquire">
 
-  <browser:resourceDirectory
-    name="collective.js.enquire"
-    directory="resources"
+  <browser:resource
+    name="collective.js.enquire.min.js"
+    directory="enquire.min.js"
     />
 
   <include file="upgrades.zcml"/>

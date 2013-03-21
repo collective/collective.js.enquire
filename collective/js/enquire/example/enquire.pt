@@ -11,6 +11,22 @@
         <div tal:replace="structure provider:plone.abovecontenttitle" />
 
         <script type="text/javascript" charset="utf-8">
+$(document).ready(function() {
+
+    enquire.register("max-width: 500px", function() {
+        match : function('screen and (min-width:800px)') {
+            console.log('MATCH');
+        },
+
+        setup : function('screen and (min-width:800px)') {
+            console.log('SETUP');
+        },
+
+        deferSetup : true
+
+    }).listen();
+
+});
         </script>
 
 

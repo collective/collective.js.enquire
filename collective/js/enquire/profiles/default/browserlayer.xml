@@ -1,6 +1,0 @@
-<layers>
-<!-- uncomment to activate
-    <layer name="collective.js.enquire"
-           interface="collective.js.enquire.interfaces.ILayer" />
--->
-</layers>
